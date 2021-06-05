@@ -93,7 +93,7 @@ namespace Nelin
                 dataGridView3.Rows[0].Cells[0].Value = dataGridView2.Rows[0].Cells[0].Value; // кинули в промежуточный
                 dataGridView3.Rows[1].Cells[0].Value = dataGridView2.Rows[1].Cells[0].Value; // кинули в промежуточный
                 x2 = Convert.ToDouble(dataGridView3.Rows[1].Cells[0].Value);
-                dataGridView2.Rows[0].Cells[0].Value = foo1(x2);// счет нового х1
+                dataGridView2.Rows[0].Cells[0].Value = foo1(x2);// счет нового х1//
                 x1 = Convert.ToDouble(dataGridView2.Rows[0].Cells[0].Value);// взяли новый х1
                 dataGridView2.Rows[1].Cells[0].Value = foo2(x1); // счет нового х2
                 k++;
